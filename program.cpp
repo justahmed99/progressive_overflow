@@ -52,6 +52,7 @@ int main() {
         while(record[temp] != 0) {
             temp++;
         }
+		temp = mod(temp, p);
         record[temp] = input[i];
     }
 
